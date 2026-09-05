@@ -11,7 +11,7 @@ separators=['\n\n','\n','',' ',',','.','?','!','，','。','？','！',':','：'
 max_spliter_char_number=1000   #文本分割的阈值
 
 #
-similarity_threshold=3     #检索返回匹配的文档数量
+top_k=3     #检索返回匹配的文档数量
 
 embedding_model_name='text-embedding-v4'
 chat_model_name='qwen3-max'
